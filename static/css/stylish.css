@@ -1,0 +1,10 @@
+#myTextarea{
+  font-size: 20px;
+  line-height: 64px;
+  padding: 100px;
+}
+.string { color: #F35888; }
+.number { color: darkorange; }
+.boolean { color: blue; }
+.null { color: magenta; }
+.key { color: white; }
