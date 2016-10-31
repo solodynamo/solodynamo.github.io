@@ -1,10 +1,13 @@
 #myTextarea{
-  font-size: 20px;
-  line-height: 64px;
-  padding: 100px;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 30px;
 }
 .string { color: #F35888; }
 .number { color: darkorange; }
 .boolean { color: blue; }
 .null { color: magenta; }
 .key { color: white; }
+pre {
+  background-color: black;
+}
