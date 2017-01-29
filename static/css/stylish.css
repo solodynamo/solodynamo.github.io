@@ -104,4 +104,6 @@ body {
 .icons.open li {
     width: 16%;
     display: inline-block;
+    font-size: 20px;
+    padding-top: 6px;
 }
