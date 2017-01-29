@@ -2,14 +2,14 @@ var obj = {
         "a-k-a": "Ankit",
         "last_seen": {
             "country": "India",
-            "state": "New Delhi"
+            "state": "Gurugram,Haryana"
 
         },
         "occupation": {
             "mode": {
                 "normal": "Student",
-                "nuts": "Front End Dev At NxtLife Technologies",
-                "high": "just joking"
+                "pro": "Intern at Directi",
+                "high": "Just Joking"
 
             }
         },
@@ -17,10 +17,12 @@ var obj = {
             "planet": {
                 "earth": {
                     "Antcrawl Technologies": "JavaScript Developer Intern",
-                    "NxtLife Technologies": "Front End Developer"
+                    "NxtLife Technologies": "Front End Developer",
+                    "Internshala": "ISP",
+                    "Directi": "Software Engineering Intern"
                 },
                 "saturn": {
-                    "sports": "hola-hoop instructor"
+                    "sports": "hoola-hoop instructor"
                 }
             }
         },
@@ -43,7 +45,7 @@ var obj = {
                 },
                 "Frameworks": {
                     "Node": "Express & Meteor",
-                    "Css": "STYLUS & SASS"
+                    "Css": "SASS"
                 },
                 "Others": {
                     "O1": "Webpack",
