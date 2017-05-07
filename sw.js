@@ -10,7 +10,13 @@ var cacheFiles = [
 	'./static/js/soloData.js',
 	'./static/css/min.style.css',
 	'./static/css/stylish.css',
+	'./static/logo.png',
+	'./static/favicon.ico',
+	'./fonts.googleapis.com/css54dc.css',
+	'./fonts.googleapis.com/css4673.css,
 	'./fonts.googleapis.com/csse3e5.css?family=Montserrat:400,700',
+	'./fonts.googleapis.com/css591d.css',
+	'./fonts.googleapis.com/cssf773.css',
 	'https://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css'
 ]
 
