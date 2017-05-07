@@ -11,7 +11,7 @@ var cacheFiles = [
 	'./static/logo.png',
 	'./static/favicon.ico',
 	'./fonts.googleapis.com/css54dc.css',
-	'./fonts.googleapis.com/css4673.css,
+	'./fonts.googleapis.com/css4673.css',
 	'./fonts.googleapis.com/csse3e5.css?family=Montserrat:400,700',
 	'./fonts.googleapis.com/css591d.css',
 	'./fonts.googleapis.com/cssf773.css',
