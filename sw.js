@@ -5,8 +5,6 @@ var cacheName = 'v1';
 var cacheFiles = [
 	'./',
 	'./index.html',
-	'./static/js/particles.min.js',
-	'./static/js/particles.prop.js',
 	'./static/js/soloData.js',
 	'./static/css/min.style.css',
 	'./static/css/stylish.css',
