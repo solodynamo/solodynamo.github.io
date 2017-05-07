@@ -24,7 +24,7 @@ body {
     font-family: Montserrat;
     color: #555;
     padding-right: 50px;
-    font-size: 20px;
+    font-size: 17px;
 }
 #myTextarea {
     font-size: 16px;
@@ -135,3 +135,87 @@ body {
     font-size: 20px;
     padding-top: 6px;
 }
+span a {
+    position: relative;
+    display: inline-block;
+    margin: 15px 25px;
+    outline: none;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-shadow: 0 0 1px rgba(255,255,255,0.3);
+    font-size: 1.35em;
+}
+
+span a:hover,
+span a:focus {
+    outline: none;
+}
+
+.hire a {
+    padding: 0 8px;
+    height: 45px;
+    line-height: 45px;
+}
+
+.hire a::before,
+.hire a::after {
+    position: absolute;
+    width: 45px;
+    height: 2px;
+    background: #fff;
+    content: '';
+    opacity: 0.2;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    pointer-events: none;
+}
+
+.hire a::before {
+    top: 0;
+    left: 0;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+.hire a::after {
+    right: 0;
+    bottom: 0;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transform-origin: 100% 0;
+    -moz-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+}
+
+.hire a:hover::before,
+.hire a:hover::after,
+.hire a:focus::before,
+.hire a:focus::after {
+    opacity: 1;
+}
+
+.hire a:hover::before,
+.hire a:focus::before {
+    left: 50%;
+    -webkit-transform: rotate(0deg) translateX(-50%);
+    -moz-transform: rotate(0deg) translateX(-50%);
+    transform: rotate(0deg) translateX(-50%);
+}
+
+.hire a:hover::after,
+.hire a:focus::after {
+    right: 50%;
+    -webkit-transform: rotate(0deg) translateX(50%);
+    -moz-transform: rotate(0deg) translateX(50%);
+    transform: rotate(0deg) translateX(50%);
+}
+
