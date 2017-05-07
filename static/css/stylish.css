@@ -1,14 +1,34 @@
+html {
+    position: relative;
+}
 body {
   -webkit-user-select: none;
      -moz-user-select: -moz-none;
       -ms-user-select: none;
           user-select: none;
 }
-
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow:hidden;
+}
+.footer-content {
+    margin-left: 50%;
+    float: left
+    color: white;
+}
+.footer-content a{
+    color: white;
+    padding-right: 50px;
+    font-size: 20px;
+}
 #myTextarea {
     font-size: 16px;
     line-height: 20px;
-    padding: 30px;
+    padding: 30px 30px 100px 30px;
 }
 
 .string {
