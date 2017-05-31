@@ -31,17 +31,19 @@ var obj = {
             "Front-End": {
                 "F1": "Angular 1 & 2",
                 "F2": "React",
-                "F3": "Angular Material",
-                "F4": "Bootstrap 3",
-                "F5": "CSS3",
-                "F6": "Ionic1 & Ionic2"
+                "F3": "Redux",
+                "F4": "Angular Material",
+                "F5": "Bootstrap 3",
+                "F6": "CSS3",
+                "F7": "Ionic1 & Ionic2"
             },
             "Back-End": {
-                "B1": "Node",
-                "Database": {
+                "B1": "NodeJS"
+            },
+            "Database": {
                     "D1": "Mongo",
-                    "D2": "Firebase"
-                }
+                    "D2": "PostgreSQL",
+                    "D3": "Firebase"
             },
             "Frameworks": {
                 "Node": "Express & Meteor",
@@ -49,17 +51,24 @@ var obj = {
             },
             "Others": {
                 "O1": "Webpack",
-                "O2": "Requirejs",
+                "O2": "Require.js",
                 "O3": "Gulp",
                 "O4": "Cordova"
 
             },
             "Testing": {
-                "T1": "Jasmine"
+                "T1": "Jasmine",
+                "T2": "Jest"
             }
 
         },
-        "Education": {
+        "C++":{
+            "STL": "Advanced", 
+            "Algorithms": "Advanced",
+            "Data Structures": "Advanced"
+        }
+    },
+     "Education": {
 
 
             "10th": {
@@ -78,7 +87,6 @@ var obj = {
 
             }
         }
-    }
 }
 
 if ('serviceWorker' in navigator) {
